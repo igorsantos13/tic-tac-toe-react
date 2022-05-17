@@ -72,7 +72,12 @@ function App() {
   }
   return (
     <div className="App">
+      <div className="greetings">
+      <h1>TIC TAC TOE</h1>
+      <p>Thank you for playing, have fun :)</p>
+      </div>
       <div className="board">
+
         <div className="row">
         <Square 
             val={board[0]}

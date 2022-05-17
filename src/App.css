@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 .App {
     width: 100vw;
     height: 100vh;
@@ -9,13 +11,31 @@
   body {
     padding: 0;
     margin: 0;
+    background-color: aliceblue;
+  }
+
+  .greetings{
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 10%;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  .greetings h1{
+      font-weight: 700;
+  }
+
+  .greetings p{
+      font-weight: 400;
   }
   
   .board {
     width: 500px;
     height: 500px;
-    background-color: aqua;
-    border: 5px solid aquamarine;
+    background-color: rgba(0, 255, 255, 0.514);
+    border: 7px solid aquamarine;
+    border-radius: 2%;
     display: flex;
     flex-direction: column;
   }
@@ -30,6 +50,7 @@
     flex: 33%;
     height: 100%;
     border: 1px solid black;
+    border-radius: 5%;
     cursor: pointer;
     display: grid;
     place-items: center;
